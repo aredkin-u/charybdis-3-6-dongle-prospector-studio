@@ -42,6 +42,7 @@ layers:
   - {t: RET, h: LGUI}
   - {t: SPACE, h: Number}
   - BSPC
+  - BSPC
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,6 +85,7 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BSPC
   Symbol:
   - {t: ▽, type: trans}
   - ''
@@ -126,6 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
+  - BSPC
   Number:
   - {t: ▽, type: trans}
   - ''
@@ -168,6 +171,7 @@ layers:
   - SPACE
   - {type: held}
   - ''
+  - BSPC
   Function:
   - {type: held}
   - Ctl+Alt+ DEL
@@ -210,6 +214,7 @@ layers:
   - ''
   - ''
   - ''
+  - BSPC
   Game:
   - ESCAPE
   - ESCAPE
@@ -252,6 +257,7 @@ layers:
   - M
   - T
   - B
+  - BSPC
   Reset:
   - {t: ▽, type: trans}
   - ''
@@ -294,6 +300,7 @@ layers:
   - BOOT LDR
   - BOOT LDR
   - ''
+  - BSPC
 combos:
 - p: [20, 24]
   k: {t: Reset, h: toggle}
