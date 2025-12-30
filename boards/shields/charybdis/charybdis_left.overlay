@@ -2,7 +2,7 @@
 
 &kscan0 {
 	compatible = "zmk,kscan-gpio-matrix";
-	diode-direction = "col2row";
+	diode-direction = "row2col";
 	
 	col-gpios
 		= <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -20,6 +20,7 @@
 		, <&pro_micro 21 GPIO_ACTIVE_HIGH>
 		;
 };
+
 
 
 
