@@ -2,9 +2,9 @@
 #include "charybdis_3610.dtsi"
 #include "split_input_common.dtsi"
 
-// &default_transform {
-//	col-offset = <6>;
-// };
+&default_transform {
+	col-offset = <6>;
+ };
 
 &kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
@@ -29,6 +29,7 @@
 &trackball_split {
     device = <&trackball>;
 };
+
 
 
 
