@@ -41,7 +41,7 @@ layers:
   - F keys
   - SPACE
   - Sym En
-  - BACK SPACE
+  - B
   - ENTER
   Ru:
   - {t: ESC, h: MOUSE}
@@ -84,7 +84,7 @@ layers:
   - F keys
   - SPACE
   - Sym Ru
-  - BACK SPACE
+  - B
   - ENTER
   MOUSE:
   - {type: held}
