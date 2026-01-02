@@ -9,7 +9,8 @@
 &kscan0 {
 	compatible = "zmk,kscan-gpio-matrix";
 	
-        = <&pro_micro 9 GPIO_ACTIVE_HIGH> 
+    col-gpios
+		= <&pro_micro 9 GPIO_ACTIVE_HIGH> 
         , <&pro_micro 8 GPIO_ACTIVE_HIGH> 
         , <&pro_micro 7 GPIO_ACTIVE_HIGH> 
         , <&pro_micro 6 GPIO_ACTIVE_HIGH> 
@@ -22,6 +23,7 @@
 &trackball_split {
     device = <&trackball>;
 };
+
 
 
 
