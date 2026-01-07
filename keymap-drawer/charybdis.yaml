@@ -93,9 +93,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,12 +105,10 @@ layers:
   - LSHFT
   - LCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,7 +116,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc MOVE_Y(5)'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - F keys
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -350,10 +350,10 @@
             label = "MOU";
             display-name = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans          &trans    &trans    &trans  &trans
-&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans    &trans  &mkp MB1        &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans    &trans    &trans     &trans     &trans    &trans  &msc MOVE_Y(5)  &mo 3     &trans    &trans  &trans
-                            &trans     &trans     &trans    &trans  &trans          &trans
+&trans  &trans    &trans    &trans     &trans     &trans    &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans  &trans
+&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans    &none     &none     &none     &none   &trans  &trans
+&trans  &trans    &trans    &trans     &trans     &trans    &trans    &none     &mo 3     &trans  &trans  &trans
+                            &trans     &trans     &trans    &trans    &trans    &trans
             >;
         };
 
