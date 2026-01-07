@@ -40,9 +40,9 @@ layers:
   - Num Arrow
   - F keys
   - SPACE
+  - ENTER
   - Sym En
   - BACK SPACE
-  - ENTER
   Ru:
   - {t: ESC, h: MOUSE}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
@@ -83,9 +83,9 @@ layers:
   - Num Arrow
   - F keys
   - SPACE
+  - ENTER
   - Sym Ru
   - BACK SPACE
-  - ENTER
   MOUSE:
   - {type: held}
   - {t: ▽, type: trans}
@@ -212,8 +212,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Sym Ru:
   - '&en AT'
@@ -255,8 +255,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Num Arrow:
   - ''
