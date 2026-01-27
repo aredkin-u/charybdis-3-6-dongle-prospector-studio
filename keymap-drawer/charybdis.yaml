@@ -244,7 +244,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
   - '&en PIPE'
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))))
-  - {t: ▽, type: trans}
+  - ''
   - '!'
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
@@ -299,8 +299,8 @@ layers:
   - LALT
   - LSHIFT
   - RSHIFT
-  - DEL
   - RIGHT CONTROL
+  - DEL
 combos:
 - p: [4, 5]
   k: '&layer_en'
@@ -331,12 +331,6 @@ combos:
   l: [Ru, Sym Ru]
 - p: [0, 11]
   k: '&boot_lo'
-  l: [En, Ru]
-- p: [18, 19]
-  k: RSHIFT
-  l: [En, Ru]
-- p: [17, 16]
-  k: LSHFT
   l: [En, Ru]
 - p: [41, 35]
   k: '&pss'

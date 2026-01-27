@@ -138,18 +138,6 @@
             layers = <0 1>;
         };
 
-        R_sh {
-            bindings = <&kp RSHIFT>;
-            key-positions = <18 19>;
-            layers = <0 1>;
-        };
-
-        L_sh {
-            bindings = <&kp LSHFT>;
-            key-positions = <17 16>;
-            layers = <0 1>;
-        };
-
         pss {
             bindings = <&pss>;
             key-positions = <41 35>;
@@ -260,7 +248,7 @@
         enBrct: enBrct {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to_en_fast &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW &to_ru_fast>;
+            bindings = <&to_en &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW &to_ru>;
             label = "ENBRCT";
         };
 
@@ -274,7 +262,7 @@
         en_LR_brs: en_LR_brs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to_en_fast &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW &to_ru_fast>;
+            bindings = <&to_en &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW &to_ru>;
             label = "EN_LR_BRS";
         };
 
@@ -288,7 +276,7 @@
         LR_enDKT: LR_enDKT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DQT &kp DQT &kp LEFT_ARROW>;
+            bindings = <&to_en &kp DQT &kp DQT &kp LEFT_ARROW &to_ru>;
             label = "LR_ENDKT";
         };
 
@@ -385,7 +373,7 @@
             bindings = <
 &en AT         &en HASH          &kp PRCNT  &en CARET    &en AMPS              &kp RU_CYRILLIC_IO    &en LT            &en GT                     &kp LPAR   &kp RPAR   &kp PLUS      &kp MINUS
 &kp RU_NUMERO  &en TILDE         &en GRAVE  &en SQT      &kp RU_DOUBLE_QUOTES  &en DLLR              &en LEFT_BRACKET  &en RIGHT_BRACKET          &en LBRC   &en RBRC   &kp STAR      &kp RU_FSLH
-&kp LCTRL      &kp RU_BACKSLASH  &en PIPE   &kp RU_FSLH  &trans                &kp EXCL              &kp RU_QUESTION   &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER  &kp EQUAL  &kp RU_COLON  &kp RU_SEMI
+&kp LCTRL      &kp RU_BACKSLASH  &en PIPE   &kp RU_FSLH  &none                 &kp EXCL              &kp RU_QUESTION   &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER  &kp EQUAL  &kp RU_COLON  &kp RU_SEMI
                                             &trans       &trans                &trans                &trans            &trans                     &trans
             >;
         };
@@ -394,10 +382,10 @@
             label = "NUM";
             display-name = "Num Arrow";
             bindings = <
-&none      &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP  &kp HOME      &kp N7        &kp NUMBER_8  &kp N9             &kp N0     &kp PLUS    &kp RU_MINUS
-&none      &kp PRINTSCREEN  &kp LEFT           &kp DOWN  &kp RIGHT  &kp INS       &kp NUMBER_4  &kp N5        &kp NUMBER_6       &none      &kp STAR    &kp RU_FSLH
-&kp LCTRL  &none            &kp C_VOLUME_DOWN  &kp C_PP  &kp PG_DN  &kp END       &kp N1        &kp N2        &kp N3             &kp EQUAL  &kp RU_DOT  &kp RU_COMMA
-                                               &trans    &kp LALT   &kp LSHIFT    &kp RSHIFT    &kp DEL       &kp RIGHT_CONTROL
+&none      &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP  &kp HOME      &kp N7        &kp NUMBER_8       &kp N9        &kp N0     &kp PLUS    &kp RU_MINUS
+&none      &kp PRINTSCREEN  &kp LEFT           &kp DOWN  &kp RIGHT  &kp INS       &kp NUMBER_4  &kp N5             &kp NUMBER_6  &none      &kp STAR    &kp RU_FSLH
+&kp LCTRL  &none            &kp C_VOLUME_DOWN  &kp C_PP  &kp PG_DN  &kp END       &kp N1        &kp N2             &kp N3        &kp EQUAL  &kp RU_DOT  &kp RU_COMMA
+                                               &trans    &kp LALT   &kp LSHIFT    &kp RSHIFT    &kp RIGHT_CONTROL  &kp DEL
             >;
         };
     };
