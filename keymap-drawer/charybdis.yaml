@@ -324,7 +324,7 @@ combos:
   k: '&en_LR_brs'
   l: [Ru, Sym Ru]
 - p: [6, 7]
-  k: '&LR_ruDKT'
+  k: '&LR_DKT'
   l: [En, Sym En]
 - p: [6, 7]
   k: '&LR_enDKT'

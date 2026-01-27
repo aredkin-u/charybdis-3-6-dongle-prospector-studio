@@ -120,8 +120,8 @@
             layers = <1 5>;
         };
 
-        lr_uDQT {
-            bindings = <&LR_ruDKT>;
+        lr_DQT {
+            bindings = <&LR_DKT>;
             key-positions = <6 7>;
             layers = <0 4>;
         };
@@ -266,10 +266,10 @@
             label = "EN_LR_BRS";
         };
 
-        LR_ruDKT: LR_ruDKT {
+        LR_DKT: LR_ruDKT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RU_DOUBLE_QUOTES &kp RU_DOUBLE_QUOTES &kp LEFT_ARROW>;
+            bindings = <&kp DQT &kp DQT &kp LEFT_ARROW>;
             label = "LR_RUDKT";
         };
 
